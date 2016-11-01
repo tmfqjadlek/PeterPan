@@ -1,5 +1,6 @@
 
 <? 
+//making by Dabin
 $table = " peterpan_product";
 
 include "./lib/dbconn.php";
@@ -39,9 +40,9 @@ $sql = "select * from $table ORDER BY hit  DESC LIMIT 3 ";
 								<div class="productinfo text-center" >
 
 									<a href="./prod/view.php?num=<?=$row[num]?>" ><img src =./admin_prod/data/<?=$row[file_copied_0]?> width="150"></a>
-										<h2><a href="./prod/view.php?num=<?=$row[num]?>"><?=number_format($row[price])?>��</a></h2>
+										<h2><a href="./prod/view.php?num=<?=$row[num]?>"><?=number_format($row[price])?>¿ø</a></h2>
 										<p><a href="./prod/view.php?num=<?=$row[num]?>"><?=$cutExec?></a></p>
-									<a href="main_cart.php?model=<?=$row[model]?>&price=<?=$row[price]?>"  class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>��ٱ��Ͽ� ���</a>
+									<a href="main_cart.php?model=<?=$row[model]?>&price=<?=$row[price]?>"  class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Àå¹Ù±¸´Ï¿¡ ´ã±â</a>
 								</div>
 							</div>
 						</div>	
