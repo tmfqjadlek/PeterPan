@@ -1,0 +1,394 @@
+#content #col2 {
+	width:807px;
+	min-height:558px;
+	float:left;
+	margin-left:15px;
+/*	border:solid 1px #cccccc; */
+}
+
+#content #col2 #title{
+	margin-top:30px;
+	height:30px;
+	width:950px;
+	border-bottom:solid 1px #cccccc;
+}
+
+/* list css */
+
+#list_search {
+	height:30px;
+	width:1000px;
+	padding-top:10px;
+}
+
+#list_search #list_search1 {
+	float:left;
+	margin-top:2px;
+}
+
+#list_search #list_search2 {
+	float:left;
+	margin-left:310px;
+	margin-top:4px;
+}
+
+
+#list_search #list_search3 {
+	float:left;
+	margin-left:230px;
+	margin-top:1px;
+}
+
+#list_search #list_search3 select {
+	width:80px;
+	height:21px;
+	border:solid 1px #cccccc;
+}
+
+#list_search #list_search4 {
+	float:left;
+	margin-left:3px;
+}
+
+#list_search #list_search4 input {
+	width:200px;
+	height:18px;
+	border:solid 1px #cccccc;
+}
+
+#list_search #list_search5 {
+	float:left;
+	margin-left:5px;
+	margin-top:-2px;
+}
+
+#list_search #list_search6 {
+	float:left;
+	margin-left:5px;
+	margin-top:-5px;
+}
+
+#list_top_title {
+	height:30px;
+	width:950px;
+	padding:7px;  
+    border-top: solid 2px #fe980f;
+    background-color: rgba(254, 152, 15, 0.09);
+	margin-bottom:3px;
+}
+
+#list_top_title li {
+	display:inline;
+}
+
+#list_top_title #list_title1 {
+	margin-left:-4px;
+}/*번호*/
+
+#list_top_title #list_title2 {
+	margin-left:28px;
+}/*아이디*/
+
+#list_top_title #list_title3 {
+	margin-left:30px;
+}/*이름*/
+
+#list_top_title #list_title4 {
+	margin-left:40px;
+}/*닉네임*/
+
+#list_top_title #list_title5 {
+	margin-left:62px;
+}/*연락처*/
+
+#list_top_title #list_title6 {
+	margin-left:80px;
+}/*이메일*/
+
+#list_top_title #list_title7 {
+	margin-left:60px;
+}/*가입일*/
+#list_top_title #list_title8 {
+	margin-left:40px;
+}/*연락처수신동의*/
+#list_top_title #list_title9 {
+	margin-left:1px;
+}/*이메일수신동의*/
+#list_top_title #list_title10 {
+	margin-left:15px;
+}/*비고*/
+#list_content {
+	height:380px;
+}
+
+#list_item {
+	height:18px;
+	margin-top:5px; 
+	width:950px;
+	border-bottom:solid 1px #eeeeee;
+}
+
+#list_item #list_item1{
+	float:left;
+	width:40px;
+	margin-left:2px;
+	text-align:center;
+}/*번호*/
+
+#list_item #list_item2{
+	float:left;
+	width:80px;
+	margin-left:5px;
+	text-align:center;
+}/*아이디*/
+
+#list_item #list_item3{
+	float:left;
+	width:65px;
+	margin-left:0px;
+	text-align:center;
+}/*이름*/
+
+#list_item #list_item4{
+	float:left;
+	width:120px;
+	margin-left:12px;
+	text-align:center;
+}/*연락처*/
+
+#list_item #list_item5{
+	float:left;
+	width:140px;
+	margin-left:1px;
+	text-align:center;
+}
+
+#list_item #list_item6{
+	float:left;
+	width:140px;
+	margin-left:-21px;
+	text-align:center;
+}/*이메일*/
+
+#list_item #list_item7{
+	float:left;
+	width:100px;
+	
+	text-align:center;
+}/*가입일*/
+
+#list_item #list_item8{
+float:left;
+	width:50px;
+	margin-left:30px;
+	text-align:center;
+}/*연락처수신동의*/
+
+#list_item #list_item9{
+float:left;
+	width:50px;
+	margin-left:43px;
+	text-align:center;
+}/*이메일수신동의*/
+#list_item #list_item10{
+float:left;
+	width:50px;
+
+	text-align:center;
+}/*비고*/
+
+#page_button {
+	margin-top:20px;
+}
+
+#page_num {
+	float:left;
+	width:80%;
+	margin-top:10px;
+	text-align:center;
+}
+
+#button {
+	float:left;
+	width:18%;
+	text-align:right;
+}
+
+#hlist_top_title {
+	height:30px;
+	width:950px;
+	padding:7px;  
+	margin-top:20px;
+	border-top: solid 2px #fe980f;
+    background-color: rgba(254, 152, 15, 0.09);
+	margin-bottom:3px;
+}
+
+#hlist_top_title li {
+	display:inline;
+}
+
+#hlist_top_title #hlist_title6 {
+	margin-left:2px;
+}/*번호*/
+
+#hlist_top_title #hlist_title1 {
+	margin-left:12px;
+}/*번호*/
+
+#hlist_top_title #hlist_title2 {
+	margin-left:40px;
+}/*아이디*/
+
+#hlist_top_title #hlist_title3 {
+	margin-left:45px;
+}/*이름*/
+
+#hlist_top_title #hlist_title4 {
+	margin-left:40px;
+}/*닉네임*/
+
+#hlist_top_title #hlist_title5 {
+	margin-left:50px;
+}/*연락처*/
+
+#hhlist_item {
+	height:25px;
+	margin-top:2px;
+	padding:6px; 
+	width:950px;
+	border-bottom:solid 1px #eeeeee;
+}
+
+#hhlist_item #hhlist_item6{
+	float:left;
+	width:30px;
+	margin-left:12px;
+	text-align:center;
+}/*번호*/
+
+#hhlist_item #hhlist_item1{
+	float:left;
+	width:60px;
+	margin-left:12px;
+	text-align:center;
+}/*번호*/
+
+#hhlist_item #hhlist_item2{
+	float:left;
+	width:80px;
+	margin-left:15px;
+	text-align:center;
+}/*아이디*/
+
+#hhlist_item #hhlist_item3{
+	float:left;
+	width:65px;
+	margin-left:10px;
+	text-align:center;
+}/*이름*/
+
+#hhlist_item #hhlist_item4{
+	float:left;
+	width:80px;
+	margin-left:25px;
+	text-align:center;
+}/*닉네임*/
+
+#hhlist_item #hhlist_item5{
+	float:left;
+	width:140px;
+	margin-left:6px;
+	text-align:center;
+}/*연락처*/
+
+/*  */
+#llist_top_title {
+	height:30px;
+	width:950px;
+	padding:7px;  
+	margin-top:20px;
+	border-top: solid 2px #fe980f;
+    background-color: rgba(254, 152, 15, 0.09);
+	margin-bottom:3px;
+}
+
+#llist_top_title li {
+	display:inline;
+}
+
+
+#llist_top_title #llist_title6 {
+	margin-left:2px;
+}/*번호*/
+
+#llist_top_title #llist_title1 {
+	margin-left:2px;
+}/*번호*/
+
+#llist_top_title #llist_title2 {
+	margin-left:30px;
+}/*아이디*/
+
+#llist_top_title #llist_title3 {
+	margin-left:40px;
+}/*이름*/
+
+#llist_top_title #llist_title4 {
+	margin-left:40px;
+}/*닉네임*/
+
+#llist_top_title #llist_title5 {
+	margin-left:42px;
+}/*연락처*/
+
+#llist_item {
+	height:25px;
+	margin-top:2px;
+	padding:6px; 
+	width:950px;
+	border-bottom:solid 1px #eeeeee;
+}
+
+
+#llist_item #llist_item1{
+	float:left;
+	width:40px;
+	margin-left:5px;
+	text-align:center;
+}/*번호*/
+
+#llist_item #llist_item6{
+	float:left;
+	width:40px;
+	margin-left:20px;
+	text-align:center;
+}/*번호*/
+
+#llist_item #llist_item2{
+	float:left;
+	width:80px;
+	margin-left:15px;
+	text-align:center;
+}/*아이디*/
+
+#llist_item #llist_item3{
+	float:left;
+	width:65px;
+	margin-left:10px;
+	text-align:center;
+}/*이름*/
+
+#llist_item #llist_item4{
+	float:left;
+	width:80px;
+	margin-left:17px;
+	text-align:center;
+}/*닉네임*/
+
+#llist_item #llist_item5{
+	float:left;
+	width:140px;
+	margin-left:6px;
+	text-align:center;
+}/*연락처*/

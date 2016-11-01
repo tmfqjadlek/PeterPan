@@ -1,0 +1,131 @@
+@media screen and (max-width: 480px)
+
+img {
+	max-width: 100%; /*0929 수정*/
+	height: auto; /*0929 수정*/ 
+	width: auto; /*0929 수정*/
+	border:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover, a:visited, a:link, a:active {
+	font-family:"돋움";
+	font-weight:normal;
+	color:#555555;
+}
+
+ul, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.clear { clear:both; }
+
+.linespace_10 {
+	height:10px;
+}
+
+
+#wrap { 
+	width:auto; /*1050px에서 수정*/
+	height:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:1000px;
+
+/*	border:solid 1px #00ff00; */
+}
+
+#header {
+
+	margin-top:16px;
+}
+
+#logo {
+	
+	width:700px;
+	position:relative;
+
+	margin-top:60px;
+}
+
+#admin {
+
+	margin-left:492px;
+
+}
+
+#moto {
+	
+	margin-left:90px;
+	margin-top:10px;
+}
+
+#top_login {
+	
+float:right;
+	
+}
+
+#top_login2 {
+	
+	float:right;
+	margin-top:-164px;
+}
+
+#menu {					/*메뉴바*/
+
+	position:relative;
+	float:left;
+	width:100%;
+	margin-left:10px;
+	margin-top:80px;
+	
+}
+
+
+.menus {
+	float:left;
+}
+
+#content {
+	overflow:visible;
+	margin-top:56px;
+	width:1000px;
+	height:100%;
+	min-height: 600px;
+	margin-left:410px;
+}
+
+#content #main_img {
+	margin-top:20px;
+}
+
+#content #col1 {
+	background-image:url();
+	margin-top:20px;
+	width:160px;
+	min-height:600px;
+	float:left;
+	border-right:solid 1px #dddddd;
+}
+
+#body #container {
+	padding: 45px 0 50px;
+	}
+
+ #footer{
+	width:100%;
+
+
+}
+
+#by_wrap #aa_bottom {
+
+	margin-top:350px;
+}
+
